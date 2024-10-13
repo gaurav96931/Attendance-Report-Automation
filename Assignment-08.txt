@@ -1,0 +1,33 @@
+CS384 Attendance Record Generation Task
+
+This task requires you to develop a Python script to process the attendance data and generate a formatted Excel output. Ensure your code is well-structured, readable, and accurately implements the specified requirements.
+
+Lecture Details:
+
+- Lecture schedule: Every Tuesday, 6:00-8:00 PM
+- Attendance tracking: QR code scanning
+- Note: Two consecutive lectures are held, allowing students to mark attendance twice during this period
+
+Input Files:
+
+- stud_list.txt: Input student list (some students may be absent due to add/drop; these can be ignored via code)
+- dates.txt: Contains date information of lectures 
+- input_attendance.csv: Student attendance record in timestamp format
+
+Output Requirements:
+
+- Generate an attendance record in Excel format (output_excel.xlsx). The file is self explanatory.
+- Highlight attendance status:
+- Absent (0): Red
+- Partial attendance (1): Yellow
+- Full attendance (2): Green
+- Else (no Highlight)
+
+Guidelines:
+
+- Use Python programming language
+- Utilize any suitable libraries
+- Maintain consistent variable names
+
+Submission Deadline: October 15th (Lab Session)
+
